@@ -1,0 +1,10 @@
+Auth-Web/
+├── main.go                # 主程序入口
+├── config/
+│   └── config.go          # 配置文件
+├── handlers/
+│   └── auth.go            # 登录处理逻辑
+├── models/
+│   └── database.go        # 数据库初始化和操作
+├── go.mod                 # Go 模块文件
+└── .env                   # 环境变量文件

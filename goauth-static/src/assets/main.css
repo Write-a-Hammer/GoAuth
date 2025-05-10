@@ -1,0 +1,25 @@
+/* 全局样式重置 */
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+}
+
+/* 全局链接样式 */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* 全局图片样式 */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* 全局按钮样式 */
+button {
+  cursor: pointer;
+}
