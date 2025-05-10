@@ -48,13 +48,13 @@ export default {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: linear-gradient(135deg, #0078d7, #005a9e);
+  background: linear-gradient(135deg, #0078d7, #005a9e); /* 渐变背景 */
   color: #fff;
   font-family: "Roboto", Arial, sans-serif;
 }
 
 .forgot-password-box {
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.9); /* 半透明白色背景 */
   padding: 40px;
   border-radius: 15px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
@@ -82,13 +82,18 @@ export default {
   transition: border-color 0.3s ease;
 }
 
+.input-group input:focus {
+  border-color: #005a9e;
+  box-shadow: 0 0 5px rgba(0, 90, 158, 0.5);
+}
+
 button {
   width: 100%;
   padding: 12px 15px;
   font-size: 16px;
   font-weight: bold;
   color: white;
-  background-color: #0078d7;
+  background-color: #005a9e;
   border: none;
   border-radius: 8px;
   cursor: pointer;
@@ -96,7 +101,7 @@ button {
 }
 
 button:hover {
-  background-color: #005a9e;
+  background-color: #004080;
   transform: scale(1.02);
 }
 
